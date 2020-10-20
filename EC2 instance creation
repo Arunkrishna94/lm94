@@ -1,0 +1,13 @@
+- hosts: Test
+  remote_user: ec2-user
+  become: yes
+  tasks:
+    - name: going to create ec2 instance
+      ec2:
+         key_name: ARUN
+         region: "ap-south-1"
+         instance_type: t2.micro
+         image: ami-0e306788ff2473ccb
+         count: 1
+         vpc_subnet_id: subnet-ce324f82
+         assign_public_ip: yes
