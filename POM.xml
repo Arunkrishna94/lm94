@@ -1,10 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>in.javahome</groupId>
-	<artifactId>Ec2</artifactId>
-	<packaging>jar</packaging>
-	<version>0.0.5</version>
+ 	<modelVersion>4.0.0</modelVersion>
+ 	<groupId>localdomain.localhost.tutorial</groupId>
+ 	<artifactId>java-archive</artifactId>
+ 	<version>1.0-SNAPSHOT</version>
 	<name>lm94</name>
 	
 	<!-- Demo on Github Webhooks-->
