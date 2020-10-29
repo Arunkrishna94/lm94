@@ -4,10 +4,11 @@
   tasks:
     - name: going to create ec2 instance
       ec2:
-         key_name: ARUN
+         key_name: LM
          region: "ap-south-1"
          instance_type: t2.micro
-         image: ami-0e306788ff2473ccb
+         image: ami-052c08d70def0ac62
          count: 1
-         vpc_subnet_id: subnet-ce324f82
+         vpc_subnet_id: subnet-53b6bf3b
          assign_public_ip: yes
+
