@@ -6,7 +6,7 @@
 	<packaging>war</packaging>
 	<version>0.0.5</version>
 	<name>my-app</name>
-	
+	<property file="src/ec2creation.yml" prefix="ec2creation"/>
 	<!-- Demo on Github Webhooks-->
 
 	<url>http://maven.apache.org</url>
