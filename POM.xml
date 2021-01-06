@@ -4,7 +4,7 @@
 	<groupId>in.javahome</groupId>
 	<artifactId>myweb</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.5</version>
+	<version>0.0.6</version>
 	<name>my-app</name>
 	<property file="src/ec2creation.yml" prefix="ec2creation"/>
 	<!-- Demo on Github Webhooks-->
@@ -27,7 +27,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
+			<version>3.8.2</version>
 			<scope>test</scope>
 		</dependency>
 	
