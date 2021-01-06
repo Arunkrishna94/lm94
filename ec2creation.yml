@@ -12,11 +12,9 @@
          vpc_subnet_id: subnet-53b6bf3b
          assign_public_ip: yes
       register: ec2_regst
-
     - name: output ec2_regst var contents
       debug:
          msg: "{{ec2_regst.device_ids}}"
-                                 
     - name: save output to a file
       copy:
          content: "{{ec2_regst.device_ids}}"
